@@ -230,6 +230,12 @@ $(function() {
         state: {
             inputStream: {
                 type : "LiveStream",
+                area: {
+                    top: '40%',
+                    right: '10%',
+                    bottom: '40%',
+                    left: '10%'
+                },
                 constraints: {
                     width: {min: 640},
                     height: {min: 480},
@@ -249,7 +255,7 @@ $(function() {
                     config: {}
                 }]
             },
-            locate: true
+            locate: false
         },
         lastResult : null
     };
